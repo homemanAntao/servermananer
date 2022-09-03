@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-dto" />
+        <module name="common-slf4j" />
+        <module name="eurake-7001" />
+        <module name="eurake-7002" />
+        <module name="gateway" />
+        <module name="manager-system" />
+        <module name="oauth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
